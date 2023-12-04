@@ -1,0 +1,164 @@
+@media (max-width:800px) {
+    .section_1_contact {
+        justify-content: center;
+        padding: 48px 64px;
+        height: 735px;
+    }
+
+    .section_1_contact_div {
+        height: 735px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width:770px) {
+    header {
+        padding: 32px;
+    }
+
+    /* section2 */
+    .section2_pic {
+        width: 250px;
+    }
+
+    /* section3 */
+    .section3 {
+        /* height: 620px; */
+    }
+
+    /* section4 */
+    .section4 {
+        background-image: url(../img/sec4\ tab.png);
+    }
+
+    /* footer */
+    footer {
+        padding: 48px 32px 66px;
+    }
+
+    /* about.html */
+    /* section1 */
+    .section_2 {
+        height: 2016px;
+        padding: 48px 32px;
+    }
+
+    .f8,
+    .f7,
+    .f6,
+    .f5 {
+        display: none;
+    }
+
+    @media (max-width: 730px) {
+
+        /* contact  */
+        .section_1_contact_div_title {
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .hide_contact_text {
+            display: none;
+        }
+
+        .section_1_contact_social {
+            column-gap: 24px;
+            justify-content: center;
+        }
+
+        .section_1_form_main_div {
+            flex-direction: column;
+        }
+
+        .section_1_contact_social_div_1 {
+            flex-direction: row;
+            column-gap: 24px;
+        }
+
+        .contact_form,
+        textarea,
+        .section_1_contact_map_div {
+            width: 295px;
+        }
+
+        .section_1_form_div_1 {
+            column-gap: 13px;
+        }
+
+        .section_1_contact_map_div {
+            margin: 0;
+        }
+
+        iframe {
+            width: 295px;
+        }
+
+        .contact_social_icons_div {
+            margin: 0;
+            justify-content: center;
+        }
+
+        .location_dot {
+            font-size: 24px;
+        }
+    }
+
+    @media (max-width:700px) {
+
+        /* contact_section1 */
+        .contact_article {
+            width: 295px;
+        }
+    }
+
+    @media (max-width: 620px) {
+        .section_2_maindiv {
+            gap: 131px;
+            padding: 8px;
+        }
+    }
+
+    @media (max-width: 550px) {
+        .section2 {
+            height: 404px;
+        }
+
+        .section2_pic {
+            width: 170px;
+            height: 160px;
+            flex-shrink: 0;
+        }
+
+        .pic_title {
+            color: #F5F5F5;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+
+        }
+
+        /* section4 */
+        .section4_title {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 32px;
+        }
+
+        .form1 {
+            width: 320px;
+        }
+
+        @media (max-width: 500px) {
+            .filter_title {
+                display: none;
+            }
+
+            .selling_button {
+                display: none;
+            }
+        }
+    }
